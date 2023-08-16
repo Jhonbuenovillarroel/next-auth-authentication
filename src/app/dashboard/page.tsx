@@ -9,20 +9,20 @@ export default function Dashboard() {
 
    return (
       <main className="p-8">
-         <p className="">User is logged in</p>
+         <p className="">Usuario Registrado</p>
 
          <Link
             className="flex mt-10 h-10 w-80 justify-center items-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             href="/"
          >
-            Go to Home
+            Ir a la página de Inicio
          </Link>
 
          <Link
             className="flex mt-10 h-10 w-80 justify-center items-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             href="/dashboard/services"
          >
-            Go to Services
+            Ir a servicios
          </Link>
       </main>
    );
